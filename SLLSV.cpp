@@ -70,7 +70,7 @@ class Linkedlist {
 		
 };
 int Linkedlist::dem(){
-	int arc=0;
+	int arc=1;
 	if(head==NULL){
 		return 0;
 	}
