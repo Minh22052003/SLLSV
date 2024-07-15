@@ -196,7 +196,7 @@ int main()
 			case 5:list.deleteLast();cout<<"Da xoa."<<endl;system("pause");break;
 			case 6:cout<<"Nhap vi tri can xoa: ";int z;cin>>z;list.deleteMiddle(z);cout<<"Da xoa."<<endl;system("pause");break;
 			case 7:cout<<"Danh sach sv: "<<endl;
-				cout<< setw(10) << left <<"Ma sinh vien |" << setw(10) << left <<"Ho ten |" << setw(10) << left <<"Noi sinh |" << setw(7) << left <<"Gioi tinh |" << setw(15) << left << "Que quan" <<endl;
+				cout<< setw(10) << left <<"Ma sinh vien |" << setw(10) << left <<"Ho ten |" << setw(10) << left <<"Ngay sinh |" << setw(7) << left <<"Gioi tinh |" << setw(15) << left << "Que quan" <<endl;
 				list.printList();cout<<endl;system("pause");break;
 			case 8:cout<<"So sinh vien co trong danh sach la: "<<list.dem()<<endl;system("pause");break;
 		}
